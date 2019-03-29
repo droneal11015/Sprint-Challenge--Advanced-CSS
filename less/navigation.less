@@ -1,33 +1,31 @@
 // Navigation code here
-.nav{
-    width: 100%;
+
+.nav-container {
+    background: @wild-sand;
+    padding: 1rem 0;
+    width: inherit;
+
+    h1 {
+    font-size: 4rem;
     text-align: center;
-    background-color: @sea-shell;
-      @media @phone{.flex(column nowrap, space-around, center);}
-  
-    h1{
-      font-size: 4rem;
-      padding-top: 10px;
-        @media @phone{font-size: 3.2rem;}
+    margin-bottom: 1.5rem;
     }
-  
-    nav{
-      width: 800px;
-      margin: 0 auto;
-      padding: 15px 0 10px 0;
-        @media @phone{
-          width: 450px;
-        }
-  
-      a{
+
+    .nav {
+        width: 35%;
         font-size: 1.6rem;
-        text-decoration: none;
-        padding: 0 1%;
-        color: @ebony-clay;
-          @media @phone{
-            padding: 0 3%;
-            font-size: 1.5rem;
-          }
-      }
+        .flex1;
+        justify-content: space-between;
+        margin: 0 auto;
+
+        a {
+            text-decoration: none;
+            color: @river-bend;
+        }
+
+        @media @phone {
+            width: 85%;
+            justify-content: space-around;
+        }  
     }
-  }
+}
