@@ -178,6 +178,11 @@ p {
   justify-content: space-between;
   margin: 0 auto;
 }
+.nav-container .nav a:hover {
+  background-color:lightgray;
+  color: #22283A;
+  font-size: 1.8rem;
+}
 .nav-container .nav a {
   text-decoration: none;
   color: #454A59;
@@ -297,8 +302,8 @@ footer {
   font-size: 1.8rem;
   border-radius: 5px;
 }
-.home .walk .walk-text .btn :hover {
-  background-color: white;
+.home .walk .walk-text .btn:hover {
+  background-color:lightgray;
   color: #22283A;
 }
 @media (max-width:500px) {
@@ -323,12 +328,4 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
-}
-.flex1 {
-  display: flex;
-  flex-direction: row;
-}
-.flex2 {
-  display: flex;
-  flex-direction: column;
 }
